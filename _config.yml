@@ -27,7 +27,7 @@ baseurl: "nathanielkblan.github.io" # the base hostname & protocol for your site
 github_username:  nathanielkblan
 
 # Build settings
-theme: minima
+theme: midnight
 plugins:
   - jekyll-feed
 
