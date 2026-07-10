@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Latest Posts" }}</h2>
+    <ul class="post-card-list">
+      {%- for post in site.posts -%}
+      <li class="post-card">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          <div class="post-excerpt">{{ post.excerpt }}</div>
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  {%- endif -%}
+
+</div>
+
+<style>
+  .post-card-list {
+    list-style: none;
+    margin-left: 0;
+    padding: 0;
+  }
+
+  .post-card {
+    border: 1px solid #e8e8e8;
+    border-radius: 8px;
+    padding: 20px 24px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  }
+
+  .post-card h3 {
+    margin-top: 0.2em;
+    margin-bottom: 0.3em;
+  }
+
+  .post-card .post-meta {
+    display: block;
+  }
+
+  .post-card .post-excerpt {
+    margin-top: 0.5em;
+  }
+</style>
