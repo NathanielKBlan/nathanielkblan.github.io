@@ -13,6 +13,6 @@ of computer science. I will provide some explanation here and there of why I wen
 or what it means to save cpu cycles.
 
 This site will mainly serve as a blog to document the areas of computer science that I find interesting, mainly that of low level programming and
-systems engineering. Maybe on the rare occassion I'll write about the hotest new JS framework out there but this sites primary focus will be the former. So expect alot of posts about linux, kernel modules, device driver development, C programming, and so forth.
+systems engineering. Maybe on the rare occassion I'll write about the hotest new JS framework out there but this site's primary focus will be the former. So expect alot of posts about linux, kernel modules, device driver development, C programming, and so forth.
 
 \-Nate
