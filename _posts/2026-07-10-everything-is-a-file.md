@@ -25,7 +25,7 @@ lrwx------ 1 nate nate 64 Jul 10 20:55 2 -> /dev/pts/0
 lr-x------ 1 nate nate 64 Jul 10 20:55 3 -> /proc/2336340/fd
 ```
 
-The first three file descriptors here correspond to _standard input_, _standard output_, and _standard error_ respectively. Another way to read this is that the three I/O descriptors point to the current psuedo terminal `/dev/pts/0`.
+The first three file descriptors here correspond to _standard input_, _standard output_, and _standard error_ respectively. Another way to read this is that the three I/O descriptors point to the current psuedo-terminal `/dev/pts/0`.
 
 Now you may be wondering how this is possible. In the Linux kernel each process has filesystem information associated with it via a structure called files_struct:
 
