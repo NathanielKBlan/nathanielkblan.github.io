@@ -11,7 +11,7 @@ In the linux and unix operating systems everything is a file. Well not literally
 
 ## What Is a File Descriptor?
 
-Firstly a file descriptor is basically just a non-negative integer that identifies any input/output resource (files included). This is neet because it gives the programmer a common api for which to interact with I/O.
+Firstly a file descriptor is basically just a non-negative integer that identifies any input/output resource (files included). This is neat because it gives the programmer a common api for which to interact with I/O.
 
 Each process running in the Linux operating system has a set of open file descriptors associated with it (actually it's more of a map as we'll see shortly). This set can be accessed by reading from the proc directory: `ls -l /proc/PID/fd`
 
