@@ -71,7 +71,7 @@ struct fdtable {
 ```
 
 
-Notice the fd array, this is where file descriptors play a role. My shell process above if it wanted to fetch one of those terminal devices would use 0, 1, or 2 as the index for the fd array (hence why file descriptors are represented as non-negative integers).
+Notice the fd array, this is where file descriptors play a role. My shell process above, if it wanted to fetch one of those terminal devices, would use 0, 1, or 2 as the index for the fd array (hence why file descriptors are represented as non-negative integers).
 
 ## Interacting w/ File Descriptors
 
