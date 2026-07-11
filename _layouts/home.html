@@ -15,7 +15,18 @@ layout: default
       {%- for post in site.posts -%}
       <li class="post-card">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <span class="post-meta">
+          {{ post.date | date: date_format }}
+          {%- if post.readtime -%}
+          <span class="post-readtime">
+            <svg class="readtime-icon" viewBox="0 0 24 24" width="14" height="14" aria-hidden="true">
+              <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/>
+              <path d="M12 7v5l3.5 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            {{ post.readtime }}
+          </span>
+          {%- endif -%}
+        </span>
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
@@ -52,7 +63,20 @@ layout: default
   }
 
   .post-card .post-meta {
-    display: block;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .post-card .post-readtime {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    color: #828282;
+  }
+
+  .post-card .readtime-icon {
+    flex-shrink: 0;
   }
 
   .post-card .post-excerpt {

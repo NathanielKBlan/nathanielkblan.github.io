@@ -4,6 +4,7 @@ title:  "Welcome to Coding Beyond!"
 date:   2026-07-09 17:55:42 -0400
 categories: introduction
 excerpt: "An introduction to Coding Beyond and what the site will focus on."
+readtime: "1 min read"
 ---
 For the last few years I've been debating on what the focus of this site would be, at first I thought maybe technical tutorials...
 
