@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Everything Is a File"
-date:   2026-07-09 17:55:42 -0400
+date:   2026-07-10 22:05:42 -0400
 categories: introduction
 excerpt: "In *nix, everything is a file (sortof)"
 readtime: "5 min read"
