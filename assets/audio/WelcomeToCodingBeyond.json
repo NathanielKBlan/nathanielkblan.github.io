@@ -1,0 +1,997 @@
+[
+  {
+    "word": "Hello,",
+    "start": 0.0,
+    "end": 0.98
+  },
+  {
+    "word": "and",
+    "start": 1.28,
+    "end": 1.44
+  },
+  {
+    "word": "welcome",
+    "start": 1.44,
+    "end": 1.7
+  },
+  {
+    "word": "to",
+    "start": 1.7,
+    "end": 1.96
+  },
+  {
+    "word": "Coding",
+    "start": 1.96,
+    "end": 2.22
+  },
+  {
+    "word": "Beyond.",
+    "start": 2.22,
+    "end": 2.58
+  },
+  {
+    "word": "I'm",
+    "start": 3.24,
+    "end": 3.44
+  },
+  {
+    "word": "Nate,",
+    "start": 3.44,
+    "end": 3.66
+  },
+  {
+    "word": "a",
+    "start": 4.5,
+    "end": 4.66
+  },
+  {
+    "word": "software",
+    "start": 4.66,
+    "end": 4.94
+  },
+  {
+    "word": "engineer",
+    "start": 4.94,
+    "end": 5.26
+  },
+  {
+    "word": "and",
+    "start": 5.26,
+    "end": 5.62
+  },
+  {
+    "word": "current",
+    "start": 5.62,
+    "end": 5.98
+  },
+  {
+    "word": "CS",
+    "start": 5.98,
+    "end": 6.3
+  },
+  {
+    "word": "master's",
+    "start": 6.3,
+    "end": 6.92
+  },
+  {
+    "word": "student.",
+    "start": 6.92,
+    "end": 7.22
+  },
+  {
+    "word": "For",
+    "start": 8.44,
+    "end": 8.82
+  },
+  {
+    "word": "the",
+    "start": 8.82,
+    "end": 9.0
+  },
+  {
+    "word": "last",
+    "start": 9.0,
+    "end": 9.32
+  },
+  {
+    "word": "few",
+    "start": 9.32,
+    "end": 9.56
+  },
+  {
+    "word": "years,",
+    "start": 9.56,
+    "end": 9.88
+  },
+  {
+    "word": "I've",
+    "start": 10.14,
+    "end": 10.38
+  },
+  {
+    "word": "been",
+    "start": 10.38,
+    "end": 10.48
+  },
+  {
+    "word": "debating",
+    "start": 10.48,
+    "end": 10.82
+  },
+  {
+    "word": "on",
+    "start": 10.82,
+    "end": 11.08
+  },
+  {
+    "word": "what",
+    "start": 11.08,
+    "end": 11.32
+  },
+  {
+    "word": "the",
+    "start": 11.32,
+    "end": 11.5
+  },
+  {
+    "word": "focus",
+    "start": 11.5,
+    "end": 11.8
+  },
+  {
+    "word": "of",
+    "start": 11.8,
+    "end": 12.04
+  },
+  {
+    "word": "this",
+    "start": 12.04,
+    "end": 12.18
+  },
+  {
+    "word": "site",
+    "start": 12.18,
+    "end": 12.4
+  },
+  {
+    "word": "should",
+    "start": 12.4,
+    "end": 12.6
+  },
+  {
+    "word": "be.",
+    "start": 12.6,
+    "end": 12.84
+  },
+  {
+    "word": "At",
+    "start": 13.44,
+    "end": 13.7
+  },
+  {
+    "word": "first,",
+    "start": 13.7,
+    "end": 13.92
+  },
+  {
+    "word": "I",
+    "start": 14.06,
+    "end": 14.16
+  },
+  {
+    "word": "thought",
+    "start": 14.16,
+    "end": 14.32
+  },
+  {
+    "word": "maybe",
+    "start": 14.32,
+    "end": 14.56
+  },
+  {
+    "word": "technical",
+    "start": 14.56,
+    "end": 15.04
+  },
+  {
+    "word": "tutorials.",
+    "start": 15.04,
+    "end": 15.66
+  },
+  {
+    "word": "However,",
+    "start": 16.88,
+    "end": 17.32
+  },
+  {
+    "word": "with",
+    "start": 17.42,
+    "end": 17.64
+  },
+  {
+    "word": "that",
+    "start": 17.64,
+    "end": 17.9
+  },
+  {
+    "word": "comes",
+    "start": 17.9,
+    "end": 18.32
+  },
+  {
+    "word": "the",
+    "start": 18.32,
+    "end": 18.6
+  },
+  {
+    "word": "dreaded",
+    "start": 18.6,
+    "end": 18.96
+  },
+  {
+    "word": "tutorial",
+    "start": 18.96,
+    "end": 19.36
+  },
+  {
+    "word": "hell,",
+    "start": 19.36,
+    "end": 19.76
+  },
+  {
+    "word": "and",
+    "start": 20.36,
+    "end": 20.64
+  },
+  {
+    "word": "I",
+    "start": 20.64,
+    "end": 20.84
+  },
+  {
+    "word": "believe",
+    "start": 20.84,
+    "end": 21.1
+  },
+  {
+    "word": "that",
+    "start": 21.1,
+    "end": 21.3
+  },
+  {
+    "word": "learning",
+    "start": 21.3,
+    "end": 21.56
+  },
+  {
+    "word": "is",
+    "start": 21.56,
+    "end": 21.88
+  },
+  {
+    "word": "best",
+    "start": 21.88,
+    "end": 22.16
+  },
+  {
+    "word": "done",
+    "start": 22.16,
+    "end": 22.54
+  },
+  {
+    "word": "hands",
+    "start": 22.54,
+    "end": 22.9
+  },
+  {
+    "word": "-on",
+    "start": 22.9,
+    "end": 23.18
+  },
+  {
+    "word": "or",
+    "start": 23.18,
+    "end": 23.54
+  },
+  {
+    "word": "in",
+    "start": 23.54,
+    "end": 23.82
+  },
+  {
+    "word": "a",
+    "start": 23.82,
+    "end": 24.02
+  },
+  {
+    "word": "way",
+    "start": 24.02,
+    "end": 24.18
+  },
+  {
+    "word": "that",
+    "start": 24.18,
+    "end": 24.38
+  },
+  {
+    "word": "encourages",
+    "start": 24.38,
+    "end": 24.88
+  },
+  {
+    "word": "exploration",
+    "start": 24.88,
+    "end": 25.78
+  },
+  {
+    "word": "rather",
+    "start": 25.78,
+    "end": 26.8
+  },
+  {
+    "word": "than",
+    "start": 26.8,
+    "end": 27.12
+  },
+  {
+    "word": "merely",
+    "start": 27.12,
+    "end": 27.46
+  },
+  {
+    "word": "just",
+    "start": 27.46,
+    "end": 27.78
+  },
+  {
+    "word": "memorizing",
+    "start": 27.78,
+    "end": 28.42
+  },
+  {
+    "word": "and",
+    "start": 28.42,
+    "end": 28.76
+  },
+  {
+    "word": "copying",
+    "start": 28.76,
+    "end": 29.08
+  },
+  {
+    "word": "off",
+    "start": 29.08,
+    "end": 29.4
+  },
+  {
+    "word": "a",
+    "start": 29.4,
+    "end": 29.5
+  },
+  {
+    "word": "screen.",
+    "start": 29.5,
+    "end": 29.82
+  },
+  {
+    "word": "To",
+    "start": 30.56,
+    "end": 30.94
+  },
+  {
+    "word": "wit,",
+    "start": 30.94,
+    "end": 31.24
+  },
+  {
+    "word": "this",
+    "start": 31.48,
+    "end": 31.62
+  },
+  {
+    "word": "site",
+    "start": 31.62,
+    "end": 31.9
+  },
+  {
+    "word": "won't",
+    "start": 31.9,
+    "end": 32.2
+  },
+  {
+    "word": "have",
+    "start": 32.2,
+    "end": 32.4
+  },
+  {
+    "word": "any",
+    "start": 32.4,
+    "end": 32.58
+  },
+  {
+    "word": "sorts",
+    "start": 32.58,
+    "end": 32.82
+  },
+  {
+    "word": "of",
+    "start": 32.82,
+    "end": 33.0
+  },
+  {
+    "word": "tutorials",
+    "start": 33.0,
+    "end": 33.46
+  },
+  {
+    "word": "and",
+    "start": 33.46,
+    "end": 34.52
+  },
+  {
+    "word": "will",
+    "start": 34.52,
+    "end": 34.78
+  },
+  {
+    "word": "assume",
+    "start": 34.78,
+    "end": 35.18
+  },
+  {
+    "word": "a",
+    "start": 35.18,
+    "end": 35.44
+  },
+  {
+    "word": "fundamental",
+    "start": 35.44,
+    "end": 35.78
+  },
+  {
+    "word": "understanding",
+    "start": 35.78,
+    "end": 36.62
+  },
+  {
+    "word": "of",
+    "start": 36.62,
+    "end": 36.92
+  },
+  {
+    "word": "computer",
+    "start": 36.92,
+    "end": 37.3
+  },
+  {
+    "word": "science.",
+    "start": 37.3,
+    "end": 37.72
+  },
+  {
+    "word": "I",
+    "start": 38.72,
+    "end": 39.16
+  },
+  {
+    "word": "will",
+    "start": 39.16,
+    "end": 39.34
+  },
+  {
+    "word": "provide",
+    "start": 39.34,
+    "end": 39.78
+  },
+  {
+    "word": "some",
+    "start": 39.78,
+    "end": 40.08
+  },
+  {
+    "word": "explanation",
+    "start": 40.08,
+    "end": 40.6
+  },
+  {
+    "word": "here",
+    "start": 40.6,
+    "end": 41.16
+  },
+  {
+    "word": "and",
+    "start": 41.16,
+    "end": 41.34
+  },
+  {
+    "word": "there",
+    "start": 41.34,
+    "end": 41.6
+  },
+  {
+    "word": "of",
+    "start": 41.6,
+    "end": 41.84
+  },
+  {
+    "word": "why",
+    "start": 41.84,
+    "end": 42.1
+  },
+  {
+    "word": "I",
+    "start": 42.1,
+    "end": 42.28
+  },
+  {
+    "word": "went",
+    "start": 42.28,
+    "end": 42.48
+  },
+  {
+    "word": "with",
+    "start": 42.48,
+    "end": 42.7
+  },
+  {
+    "word": "a",
+    "start": 42.7,
+    "end": 42.88
+  },
+  {
+    "word": "certain",
+    "start": 42.88,
+    "end": 43.08
+  },
+  {
+    "word": "paradigm",
+    "start": 43.08,
+    "end": 43.62
+  },
+  {
+    "word": "or",
+    "start": 43.62,
+    "end": 44.52
+  },
+  {
+    "word": "why",
+    "start": 44.52,
+    "end": 44.84
+  },
+  {
+    "word": "I",
+    "start": 44.84,
+    "end": 45.08
+  },
+  {
+    "word": "used",
+    "start": 45.08,
+    "end": 45.34
+  },
+  {
+    "word": "a",
+    "start": 45.34,
+    "end": 45.5
+  },
+  {
+    "word": "circular",
+    "start": 45.5,
+    "end": 45.8
+  },
+  {
+    "word": "buffer",
+    "start": 45.8,
+    "end": 46.24
+  },
+  {
+    "word": "here",
+    "start": 46.24,
+    "end": 46.62
+  },
+  {
+    "word": "and",
+    "start": 46.62,
+    "end": 46.84
+  },
+  {
+    "word": "there",
+    "start": 46.84,
+    "end": 47.12
+  },
+  {
+    "word": "or",
+    "start": 47.12,
+    "end": 48.14
+  },
+  {
+    "word": "what",
+    "start": 48.14,
+    "end": 48.38
+  },
+  {
+    "word": "it",
+    "start": 48.38,
+    "end": 48.52
+  },
+  {
+    "word": "means",
+    "start": 48.52,
+    "end": 48.78
+  },
+  {
+    "word": "to",
+    "start": 48.78,
+    "end": 49.02
+  },
+  {
+    "word": "save",
+    "start": 49.02,
+    "end": 49.28
+  },
+  {
+    "word": "CPU",
+    "start": 49.28,
+    "end": 49.64
+  },
+  {
+    "word": "cycles.",
+    "start": 49.64,
+    "end": 50.12
+  },
+  {
+    "word": "This",
+    "start": 51.46,
+    "end": 52.06
+  },
+  {
+    "word": "site",
+    "start": 52.06,
+    "end": 52.38
+  },
+  {
+    "word": "will",
+    "start": 52.38,
+    "end": 52.96
+  },
+  {
+    "word": "mainly",
+    "start": 52.96,
+    "end": 53.26
+  },
+  {
+    "word": "serve",
+    "start": 53.26,
+    "end": 53.66
+  },
+  {
+    "word": "as",
+    "start": 53.66,
+    "end": 54.0
+  },
+  {
+    "word": "a",
+    "start": 54.0,
+    "end": 54.16
+  },
+  {
+    "word": "blog",
+    "start": 54.16,
+    "end": 54.42
+  },
+  {
+    "word": "to",
+    "start": 54.42,
+    "end": 54.7
+  },
+  {
+    "word": "document",
+    "start": 54.7,
+    "end": 55.14
+  },
+  {
+    "word": "the",
+    "start": 55.14,
+    "end": 55.4
+  },
+  {
+    "word": "areas",
+    "start": 55.4,
+    "end": 55.94
+  },
+  {
+    "word": "of",
+    "start": 55.94,
+    "end": 56.66
+  },
+  {
+    "word": "computer",
+    "start": 56.66,
+    "end": 57.06
+  },
+  {
+    "word": "science",
+    "start": 57.06,
+    "end": 57.52
+  },
+  {
+    "word": "that",
+    "start": 57.52,
+    "end": 57.86
+  },
+  {
+    "word": "I",
+    "start": 57.86,
+    "end": 58.08
+  },
+  {
+    "word": "find",
+    "start": 58.08,
+    "end": 58.36
+  },
+  {
+    "word": "interesting.",
+    "start": 58.36,
+    "end": 58.94
+  },
+  {
+    "word": "Mainly",
+    "start": 59.88,
+    "end": 60.24
+  },
+  {
+    "word": "that",
+    "start": 60.24,
+    "end": 60.6
+  },
+  {
+    "word": "of",
+    "start": 60.6,
+    "end": 60.84
+  },
+  {
+    "word": "low",
+    "start": 60.84,
+    "end": 61.06
+  },
+  {
+    "word": "-level",
+    "start": 61.06,
+    "end": 61.32
+  },
+  {
+    "word": "programming",
+    "start": 61.32,
+    "end": 61.96
+  },
+  {
+    "word": "and",
+    "start": 61.96,
+    "end": 62.32
+  },
+  {
+    "word": "systems",
+    "start": 62.32,
+    "end": 62.68
+  },
+  {
+    "word": "engineering.",
+    "start": 62.68,
+    "end": 63.3
+  },
+  {
+    "word": "Maybe",
+    "start": 64.32,
+    "end": 64.76
+  },
+  {
+    "word": "on",
+    "start": 64.76,
+    "end": 65.08
+  },
+  {
+    "word": "the",
+    "start": 65.08,
+    "end": 65.2
+  },
+  {
+    "word": "rare",
+    "start": 65.2,
+    "end": 65.38
+  },
+  {
+    "word": "occasion,",
+    "start": 65.38,
+    "end": 65.84
+  },
+  {
+    "word": "I'll",
+    "start": 66.18,
+    "end": 66.3
+  },
+  {
+    "word": "write",
+    "start": 66.3,
+    "end": 66.56
+  },
+  {
+    "word": "about",
+    "start": 66.56,
+    "end": 66.84
+  },
+  {
+    "word": "the",
+    "start": 66.84,
+    "end": 67.04
+  },
+  {
+    "word": "hottest",
+    "start": 67.04,
+    "end": 67.32
+  },
+  {
+    "word": "new",
+    "start": 67.32,
+    "end": 67.62
+  },
+  {
+    "word": "JavaScript",
+    "start": 67.62,
+    "end": 67.98
+  },
+  {
+    "word": "framework",
+    "start": 67.98,
+    "end": 68.7
+  },
+  {
+    "word": "out",
+    "start": 68.7,
+    "end": 69.04
+  },
+  {
+    "word": "there,",
+    "start": 69.04,
+    "end": 69.34
+  },
+  {
+    "word": "but",
+    "start": 69.92,
+    "end": 70.2
+  },
+  {
+    "word": "this",
+    "start": 70.2,
+    "end": 70.48
+  },
+  {
+    "word": "site's",
+    "start": 70.48,
+    "end": 70.94
+  },
+  {
+    "word": "primary",
+    "start": 70.94,
+    "end": 71.34
+  },
+  {
+    "word": "focus",
+    "start": 71.34,
+    "end": 71.88
+  },
+  {
+    "word": "will",
+    "start": 71.88,
+    "end": 72.34
+  },
+  {
+    "word": "be",
+    "start": 72.34,
+    "end": 72.5
+  },
+  {
+    "word": "on",
+    "start": 72.5,
+    "end": 72.8
+  },
+  {
+    "word": "the",
+    "start": 72.8,
+    "end": 72.94
+  },
+  {
+    "word": "former.",
+    "start": 72.94,
+    "end": 73.24
+  },
+  {
+    "word": "So",
+    "start": 74.32,
+    "end": 74.62
+  },
+  {
+    "word": "expect",
+    "start": 74.62,
+    "end": 75.34
+  },
+  {
+    "word": "a",
+    "start": 75.34,
+    "end": 75.7
+  },
+  {
+    "word": "lot",
+    "start": 75.7,
+    "end": 75.84
+  },
+  {
+    "word": "of",
+    "start": 75.84,
+    "end": 76.0
+  },
+  {
+    "word": "posts",
+    "start": 76.0,
+    "end": 76.32
+  },
+  {
+    "word": "about",
+    "start": 76.32,
+    "end": 76.86
+  },
+  {
+    "word": "Linux,",
+    "start": 76.86,
+    "end": 77.22
+  },
+  {
+    "word": "kernel",
+    "start": 77.68,
+    "end": 77.96
+  },
+  {
+    "word": "modules,",
+    "start": 77.96,
+    "end": 78.46
+  },
+  {
+    "word": "device",
+    "start": 79.06,
+    "end": 79.36
+  },
+  {
+    "word": "driver",
+    "start": 79.36,
+    "end": 79.78
+  },
+  {
+    "word": "development,",
+    "start": 79.78,
+    "end": 80.34
+  },
+  {
+    "word": "C",
+    "start": 81.02,
+    "end": 81.3
+  },
+  {
+    "word": "programming,",
+    "start": 81.3,
+    "end": 81.8
+  },
+  {
+    "word": "and",
+    "start": 82.36,
+    "end": 82.46
+  },
+  {
+    "word": "so",
+    "start": 82.46,
+    "end": 82.64
+  },
+  {
+    "word": "forth.",
+    "start": 82.64,
+    "end": 82.96
+  }
+]
