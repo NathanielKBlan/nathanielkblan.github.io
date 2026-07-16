@@ -25,6 +25,7 @@ url: "https://codingbeyond.com" # the subpath of your site, e.g. /blog
 baseurl: "nathanielkblan.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  nathanielkblan
 show_excerpts: true
+rss: "Subscribe via RSS"
 
 # Build settings
 theme: minima

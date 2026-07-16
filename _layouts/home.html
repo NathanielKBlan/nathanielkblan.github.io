@@ -10,7 +10,17 @@ layout: default
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Latest Posts" }}</h2>
+    <div class="post-list-header">
+      <h2 class="post-list-heading">{{ page.list_title | default: "Latest Posts" }}</h2>
+      <a class="rss-subscribe" href="{{ "/feed.xml" | relative_url }}" title="Subscribe to new posts via RSS">
+        <svg class="rss-icon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+          <circle cx="5" cy="19" r="2" fill="currentColor"/>
+          <path d="M4 11a9 9 0 0 1 9 9" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          <path d="M4 4a16 16 0 0 1 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        Subscribe via RSS
+      </a>
+    </div>
     <ul class="post-card-list">
       {%- for post in site.posts -%}
       <li class="post-card">
@@ -43,6 +53,32 @@ layout: default
 </div>
 
 <style>
+  .post-list-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .rss-subscribe {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    border: 1px solid #ee802f;
+    border-radius: 20px;
+    color: #ee802f;
+    text-decoration: none;
+    font-size: 0.9em;
+    white-space: nowrap;
+  }
+
+  .rss-subscribe:hover {
+    background: #ee802f;
+    color: #fff;
+  }
+
   .post-card-list {
     list-style: none;
     margin-left: 0;
