@@ -12,15 +12,22 @@ layout: default
   {%- if site.posts.size > 0 -%}
     <div class="post-list-header">
       <h2 class="post-list-heading">{{ page.list_title | default: "Latest Posts" }}</h2>
-      <a class="rss-subscribe" href="{{ "/feed.xml" | relative_url }}" title="Subscribe to new posts via RSS">
-        <svg class="rss-icon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
-          <circle cx="5" cy="19" r="2" fill="currentColor"/>
-          <path d="M4 11a9 9 0 0 1 9 9" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-          <path d="M4 4a16 16 0 0 1 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-        </svg>
-        Subscribe via RSS
-      </a>
+      <div class="subscribe-options">
+        <a class="rss-subscribe" href="{{ "/feed.xml" | relative_url }}" title="Subscribe to new posts via RSS">
+          <svg class="rss-icon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+            <circle cx="5" cy="19" r="2" fill="currentColor"/>
+            <path d="M4 11a9 9 0 0 1 9 9" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <path d="M4 4a16 16 0 0 1 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          Subscribe via RSS
+        </a>
+        <form class="email-subscribe" action="https://api.follow.it/subscription-form/Vng2ai9UYXZRU3R4UUxscTRQNjhGV1Nycy9wc0lJS2RxYmRKZ3ZBNE9WRGZxQUcvNmZodnNhbUJtNi92Yis1OE9FVmp6QkpkUWZpMHlJdTdYOWwvNkliVDVLOWVlNkljaWtpZzcxRGc1SnZQeFFwTmZZK3ZjM3JPSHdFMHpGRlp8SmJBZWFSNU1aMnFyMmhraTJBd3NucVNlUElXU3dsME51dERvRTU0VU1aND0=/8" method="post">
+          <input type="email" name="email" required placeholder="Enter your email" spellcheck="false" aria-label="Email address">
+          <button type="submit">Subscribe via Email</button>
+        </form>
+      </div>
     </div>
+    <a href="https://follow.it" class="followit-credit">Powered by follow.it</a>
     <ul class="post-card-list">
       {%- for post in site.posts -%}
       <li class="post-card">
@@ -77,6 +84,52 @@ layout: default
   .rss-subscribe:hover {
     background: #ee802f;
     color: #fff;
+  }
+
+  .subscribe-options {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .email-subscribe {
+    display: flex;
+  }
+
+  .email-subscribe input {
+    height: 34px;
+    width: 190px;
+    padding: 0 12px;
+    border: 1px solid #e8e8e8;
+    border-right: none;
+    border-radius: 20px 0 0 20px;
+    font-size: 0.9em;
+    outline: none;
+  }
+
+  .email-subscribe button {
+    height: 34px;
+    padding: 0 14px;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    background: #ee802f;
+    color: #fff;
+    font-size: 0.9em;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+
+  .email-subscribe button:hover {
+    background: #d76f22;
+  }
+
+  .followit-credit {
+    display: block;
+    margin-top: 4px;
+    text-align: right;
+    font-size: 0.75em;
+    color: #828282;
   }
 
   .post-card-list {
