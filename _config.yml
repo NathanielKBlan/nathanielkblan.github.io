@@ -20,7 +20,7 @@
 
 title: Coding Beyond
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to Coding Beyond where I explore topics related to low level programming, computer architecture, and systems engineering.
+  Coding beyond user space
 url: "https://codingbeyond.com" # the subpath of your site, e.g. /blog
 baseurl: "nathanielkblan.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  nathanielkblan
