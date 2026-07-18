@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Spicing Things up w/ i3 and Polybar"
-date:   2026-07-18 17:55:42 -0400
-categories: introduction
+date:   2026-07-18 00:00:00 -0400
+categories: ricing
 excerpt: "Customize your linux desktop with these two popular modifications"
 readtime: "5-6 min read"
 ---
