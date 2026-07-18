@@ -13,6 +13,13 @@ One of the big perks of Linux is that you can customize just about anything to y
 
 i3 is a window tiling manager, a window manager where the sizing and layout of windows is done by the manager itself rather than the user. When you open a new window it snaps right into position with its dimensions calculated by the manager. i3 also has workspaces which one can think of as virtual desktops. Here is an example of two workspaces I have open.
 
+### Workspace 1
+
+![Workspace 1 example](/assets/images/rice-example.png)
+
+### Workspace 2
+![Workspace 2 example](/assets/images/rice-example2.png)
+
 As one can see, i3 evenly spaces out the windows in each workspace. If there is only one window as shown on workspace #2 then the window fills the whole screen.
 
 i3 is also a neat developer productivity tool in that it has baked in commands so that you rarely have to touch the mouse when locking in on the task at hand.
