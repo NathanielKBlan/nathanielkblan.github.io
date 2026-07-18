@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Spicing Things up w/ i3 and Polybar"
-date:   2026-07-18 11:00:00 -0400
+date:   2026-07-18 17:55:42 -0400
 categories: introduction
 excerpt: "Customize your linux desktop with these two popular modifications"
 readtime: "5-6 min read"
@@ -30,13 +30,13 @@ From here on out any configuration changes you make will be to either of those l
 On my i3 config I've also changed the default color scheme to a monochrome-grey one, there are many inspirations online you can use to find the right color scheme for you but here's mine:
 
 ```
-# class                 border       bground    text      idcator   child_brdr
-client.focused          #333333  #D4C9BE  #030303 #123458 #333333
-client.focused_inactive #333333  #5F676A  #F1EFEC #484E50 #5F676A
-client.unfocused        #333333  #222222  #888888 #292D2E #222222
-client.urgent           #333333  #900000  #F1EFEC #900000 #900000
-client.placeholder      #333333  #0C0C0C  #F1EFEC #000000 #0C0C0C
-client.background       #F1EFEC
+# class                   border   bground  text     idcator  child_brdr
+client.focused            #333333  #D4C9BE  #030303  #123458  #333333
+client.focused_inactive   #333333  #5F676A  #F1EFEC  #484E50  #5F676A
+client.unfocused          #333333  #222222  #888888  #292D2E  #222222
+client.urgent             #333333  #900000  #F1EFEC  #900000  #900000
+client.placeholder        #333333  #0C0C0C  #F1EFEC  #000000  #0C0C0C
+client.background         #F1EFEC
 ```
 
 Again, more information on configuration is up above in the linked user guide.
