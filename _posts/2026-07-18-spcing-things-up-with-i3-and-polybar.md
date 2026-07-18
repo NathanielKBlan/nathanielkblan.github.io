@@ -63,7 +63,8 @@ This will be the launch script that the i3 exec_always config I mentioned above 
 Then as one can probably note I've pointed to a config.ini file. It is here that you will define your status bars. Here the syntax for the bars is simple, here's an example:
 
 ```
-[bar/top] <- you can also define the bottom bar with [bar/bottom]
+#you can also define the bottom bar with [bar/bottom]
+[bar/top]
 monitor = None-1
 width = 100%
 height = 38
